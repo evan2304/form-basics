@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Form Basics</title>
+    <title>Application for SEP</title>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
@@ -13,28 +13,20 @@
 
 <body bakground="">
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>School trip to Miami</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> 
+            <input type="text" name="name" placeholder=First required><br> 
+            <input type="text" name="name" placeholder=Surname required><br> 
             E-mail:
             <input type="email" name="email"><br>
 
             <!--add your own inputs above-->
             High School:
-            <input type="text" name="school"><br>
-            Grade:
-            <input type="radio" name="grade" value="9th"> 9th grade
+            <input type="text" name="school" placeholder= Abbreviation required><br>
             
-            <input type="radio" name="grade" value="10th"> 10th grade
-          
-            <input type="radio" name="grade" value="11th"> 11th grade
-          
-            <input type="radio" name="grade" value="12th"> 12th grade
-            
-            <br>
             Select your age:
             <select>
                 <option value="Under 14">Under 15 yrs</option>
@@ -42,8 +34,29 @@
                 <option value="16-17">16-17 yrs</option>
                 <option value="18+ yrs">18+ yrs</option>
             </select>
-            <br>
+           
+             <br>
+            Select your gender:
+            <select>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+                </select>
+                
+                <br>
+                
+            Grade:
+            <input type="radio" name="grade" value="Freshman"> Freshman
             
+            <input type="radio" name="grade" value="Sophmore"> Sophmore
+          
+            <input type="radio" name="grade" value="Junior"> Junior
+            
+            <input type="radio" name="grade" value="Senior"> Senior
+            <br>
+            Extra comments:
+            <br>
+            <textarea name="message">Let us know about any allergies or such</textarea></textarea>
 
 
 
